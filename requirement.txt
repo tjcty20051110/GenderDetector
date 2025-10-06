@@ -1,0 +1,9 @@
+#python == 3.10
+# 深度学习框架（支持CUDA 12.1的PyTorch 2.5.1，适配Python 3.10）
+torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+# 图像处理库
+opencv-python==4.10.0.84
+
+# 数据可视化库
+matplotlib==3.9.2
